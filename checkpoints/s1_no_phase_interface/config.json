@@ -1,0 +1,22 @@
+{
+  "arm": "no_phase_interface",
+  "seed": 1,
+  "steps": 800,
+  "batch": 64,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "augmentation": true,
+  "position_unit_um": 0.12248914944559414,
+  "parameters": 73410,
+  "training_objects": 1536,
+  "training_object_forwards": 102400,
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "2.1.0",
+  "archive_model_sha256": "42a8ba36ec812ee116e60c4541721918d6b68c3136b45b079ad978f1adb2c71c",
+  "archive_norm_sha256": "2dd0d5de8f084a530a87e7c1be02353b1808d1ebf8a07d1a53c68fd6d702f2a2",
+  "input_sha256": {
+    "L08.npz": "82915048e0e7dab07b2fc600808100bc0b86883b5c62df95d23006ce8a9f42fb",
+    "L12.npz": "07bb16c2ec84bf7e069ae4859cf1be8a209b433b3d89b89acc856133a9eee440",
+    "L16.npz": "f5ab1058d514da5d14d515c5eca4380cce1e8e7931f1aa7f6c2f2c174d22c2b0"
+  }
+}

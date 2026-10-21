@@ -1,0 +1,1 @@
+Run the replay script in this directory with Python and NumPy. See the repository root README for scope, original measurement boundaries and limitations. Archived predictions and simulated reference labels are supplied for quality replay; no training occurs.

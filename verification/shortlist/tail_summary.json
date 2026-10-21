@@ -1,0 +1,1539 @@
+{
+  "status": "COMPLETE",
+  "groups": {
+    "PGOE_K1": {
+      "seeds": 5,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.1372873527935915,
+            "0.5": 0.49643574521008255,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.1875,
+          "below_10pct_oracle_rate": 0.21875,
+          "below_50pct_oracle_rate": 0.50390625,
+          "at_least_90pct_oracle_rate": 0.310546875,
+          "realized_gain_mean": 0.01024223540159534,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.021373521292934874,
+          "gainrecovery": 0.5300855095848735
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.0,
+            "0.5": 0.3956380497944806,
+            "0.75": 0.9164433725553152,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.26171875,
+          "below_10pct_oracle_rate": 0.322265625,
+          "below_50pct_oracle_rate": 0.5703125,
+          "at_least_90pct_oracle_rate": 0.2578125,
+          "realized_gain_mean": 0.009123645145876092,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.02277517110215249,
+          "gainrecovery": 0.47219302201060304
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.12000134287482302,
+            "0.5": 0.4769007243246435,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.181640625,
+          "below_10pct_oracle_rate": 0.236328125,
+          "below_50pct_oracle_rate": 0.517578125,
+          "at_least_90pct_oracle_rate": 0.314453125,
+          "realized_gain_mean": 0.01042180801107899,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.02129037836976595,
+          "gainrecovery": 0.5393792657302166
+        },
+        {
+          "seed": 3,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.1336795999634816,
+            "0.5": 0.5047556545512193,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.16796875,
+          "below_10pct_oracle_rate": 0.216796875,
+          "below_50pct_oracle_rate": 0.494140625,
+          "at_least_90pct_oracle_rate": 0.3046875,
+          "realized_gain_mean": 0.01043469103340274,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.021706876984022103,
+          "gainrecovery": 0.5400460248102134
+        },
+        {
+          "seed": 4,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.0,
+            "0.5": 0.3341782257870676,
+            "0.75": 0.8932246253864758,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.27734375,
+          "below_10pct_oracle_rate": 0.330078125,
+          "below_50pct_oracle_rate": 0.595703125,
+          "at_least_90pct_oracle_rate": 0.248046875,
+          "realized_gain_mean": 0.008583894702110703,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.023012854016563798,
+          "gainrecovery": 0.44425831070847144
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.0,
+        "0.25": 0.06697275836082994,
+        "0.5": 0.4384631519393962,
+        "0.75": 0.9670379656439322,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.215234375,
+      "mean_seed_below_10pct_oracle_rate": 0.26484375,
+      "mean_seed_below_50pct_oracle_rate": 0.536328125,
+      "mean_seed_at_least_90pct_oracle_rate": 0.287109375,
+      "mean_seed_aggregate_gainrecovery": 0.5051924265688756,
+      "worst_utility_per_geometry_median_ratio": 0.12553730754653836,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "PGOE_K2": {
+      "seeds": 5,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.09663976528570713,
+            "0.25": 0.3676756780457039,
+            "0.5": 0.7510208428679358,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0859375,
+          "below_10pct_oracle_rate": 0.1015625,
+          "below_50pct_oracle_rate": 0.330078125,
+          "at_least_90pct_oracle_rate": 0.423828125,
+          "realized_gain_mean": 0.013028363001909507,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.016966282375322855,
+          "gainrecovery": 0.674281167160853
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.25089449117441864,
+            "0.5": 0.6551300625538843,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.130859375,
+          "below_10pct_oracle_rate": 0.166015625,
+          "below_50pct_oracle_rate": 0.41015625,
+          "at_least_90pct_oracle_rate": 0.373046875,
+          "realized_gain_mean": 0.011815855890761312,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.019180706456610963,
+          "gainrecovery": 0.6115280254210955
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.10118547413902801,
+            "0.25": 0.3560676691626026,
+            "0.5": 0.7667788534784106,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.068359375,
+          "below_10pct_oracle_rate": 0.099609375,
+          "below_50pct_oracle_rate": 0.341796875,
+          "at_least_90pct_oracle_rate": 0.419921875,
+          "realized_gain_mean": 0.01304418740260948,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.016328670842463536,
+          "gainrecovery": 0.67510015688136
+        },
+        {
+          "seed": 3,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.08210262506263134,
+            "0.25": 0.34027700937460614,
+            "0.5": 0.7345507744648625,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.08203125,
+          "below_10pct_oracle_rate": 0.107421875,
+          "below_50pct_oracle_rate": 0.341796875,
+          "at_least_90pct_oracle_rate": 0.41015625,
+          "realized_gain_mean": 0.012790448869277432,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.01770116644854968,
+          "gainrecovery": 0.661967953366326
+        },
+        {
+          "seed": 4,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.0,
+            "0.25": 0.2362029546489611,
+            "0.5": 0.5934112159131009,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.16796875,
+          "below_10pct_oracle_rate": 0.1953125,
+          "below_50pct_oracle_rate": 0.431640625,
+          "at_least_90pct_oracle_rate": 0.341796875,
+          "realized_gain_mean": 0.010984939273318915,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.021286957392492003,
+          "gainrecovery": 0.5685240481339805
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.0,
+        "0.25": 0.30224906553281,
+        "0.5": 0.6843505069979069,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.10703125,
+      "mean_seed_below_10pct_oracle_rate": 0.133984375,
+      "mean_seed_below_50pct_oracle_rate": 0.37109375,
+      "mean_seed_at_least_90pct_oracle_rate": 0.39375,
+      "mean_seed_aggregate_gainrecovery": 0.638280270192723,
+      "worst_utility_per_geometry_median_ratio": 0.3598697198643174,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "PGOE_K4": {
+      "seeds": 5,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.3166473430061893,
+            "0.25": 0.5859373053763512,
+            "0.5": 0.9714371320802535,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.02734375,
+          "below_10pct_oracle_rate": 0.03515625,
+          "below_50pct_oracle_rate": 0.193359375,
+          "at_least_90pct_oracle_rate": 0.544921875,
+          "realized_gain_mean": 0.015089606797450262,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.013440724298271504,
+          "gainrecovery": 0.7809605613454165
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.127091069294675,
+            "0.25": 0.39492897761187595,
+            "0.5": 0.8351725272339868,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0625,
+          "below_10pct_oracle_rate": 0.0859375,
+          "below_50pct_oracle_rate": 0.3046875,
+          "at_least_90pct_oracle_rate": 0.46875,
+          "realized_gain_mean": 0.013572472028281435,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.01607834344367791,
+          "gainrecovery": 0.7024414563169846
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.31258817159928454,
+            "0.25": 0.6134158809485263,
+            "0.5": 0.995759141297577,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.015625,
+          "below_10pct_oracle_rate": 0.02734375,
+          "below_50pct_oracle_rate": 0.181640625,
+          "at_least_90pct_oracle_rate": 0.578125,
+          "realized_gain_mean": 0.015540650579118286,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.012639004427793204,
+          "gainrecovery": 0.8043042713340915
+        },
+        {
+          "seed": 3,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.2761845075302353,
+            "0.25": 0.5377430877029789,
+            "0.5": 0.9789494768586382,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.037109375,
+          "below_10pct_oracle_rate": 0.046875,
+          "below_50pct_oracle_rate": 0.228515625,
+          "at_least_90pct_oracle_rate": 0.548828125,
+          "realized_gain_mean": 0.01485963731388309,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.01424274073142241,
+          "gainrecovery": 0.76905852179
+        },
+        {
+          "seed": 4,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.03875847998792723,
+            "0.25": 0.3508726479144812,
+            "0.5": 0.7965640939549525,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.09375,
+          "below_10pct_oracle_rate": 0.1171875,
+          "below_50pct_oracle_rate": 0.330078125,
+          "at_least_90pct_oracle_rate": 0.4453125,
+          "realized_gain_mean": 0.012884229703359989,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.018341716292575975,
+          "gainrecovery": 0.6668215677654057
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.21602448879497757,
+        "0.25": 0.503177772923396,
+        "0.5": 0.9320102049784388,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.047265625,
+      "mean_seed_below_10pct_oracle_rate": 0.0625,
+      "mean_seed_below_50pct_oracle_rate": 0.24765625,
+      "mean_seed_at_least_90pct_oracle_rate": 0.5171875,
+      "mean_seed_aggregate_gainrecovery": 0.7447172757103797,
+      "worst_utility_per_geometry_median_ratio": 0.5786887252006618,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "PGOE_K8": {
+      "seeds": 5,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.4960451144576491,
+            "0.25": 0.7088821171307653,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0078125,
+          "below_10pct_oracle_rate": 0.009765625,
+          "below_50pct_oracle_rate": 0.10546875,
+          "at_least_90pct_oracle_rate": 0.66796875,
+          "realized_gain_mean": 0.016587117394777497,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.00974129076634465,
+          "gainrecovery": 0.8584640200112182
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.3225639061565234,
+            "0.25": 0.6058944013477522,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.021484375,
+          "below_10pct_oracle_rate": 0.03515625,
+          "below_50pct_oracle_rate": 0.1875,
+          "at_least_90pct_oracle_rate": 0.591796875,
+          "realized_gain_mean": 0.015478120741504887,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.013153140324542217,
+          "gainrecovery": 0.8010680480355726
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.5197081632270694,
+            "0.25": 0.7954967885205657,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.005859375,
+          "below_10pct_oracle_rate": 0.0078125,
+          "below_50pct_oracle_rate": 0.091796875,
+          "at_least_90pct_oracle_rate": 0.689453125,
+          "realized_gain_mean": 0.01695341195377463,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.008563295213635875,
+          "gainrecovery": 0.877421545429343
+        },
+        {
+          "seed": 3,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.42344278015950065,
+            "0.25": 0.7954967885205657,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.017578125,
+          "below_10pct_oracle_rate": 0.021484375,
+          "below_50pct_oracle_rate": 0.134765625,
+          "at_least_90pct_oracle_rate": 0.703125,
+          "realized_gain_mean": 0.016568377767492565,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.01061272910407518,
+          "gainrecovery": 0.8574941531326249
+        },
+        {
+          "seed": 4,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.23528159804823862,
+            "0.25": 0.5617963386794189,
+            "0.5": 0.9861791104632343,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0390625,
+          "below_10pct_oracle_rate": 0.060546875,
+          "below_50pct_oracle_rate": 0.220703125,
+          "at_least_90pct_oracle_rate": 0.5625,
+          "realized_gain_mean": 0.014658258497177938,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.014340672481743161,
+          "gainrecovery": 0.7586361883357111
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.3783076485804637,
+        "0.25": 0.6815231402121482,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.018359375,
+      "mean_seed_below_10pct_oracle_rate": 0.026953125,
+      "mean_seed_below_50pct_oracle_rate": 0.148046875,
+      "mean_seed_at_least_90pct_oracle_rate": 0.64296875,
+      "mean_seed_aggregate_gainrecovery": 0.830616790988894,
+      "worst_utility_per_geometry_median_ratio": 0.7787284964002326,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "PGOE_K16": {
+      "seeds": 5,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.6166855728913329,
+            "0.25": 0.9309474224412699,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0,
+          "below_10pct_oracle_rate": 0.0,
+          "below_50pct_oracle_rate": 0.05078125,
+          "at_least_90pct_oracle_rate": 0.76953125,
+          "realized_gain_mean": 0.01767129847145171,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.006028694091472536,
+          "gainrecovery": 0.9145756651723527
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.4989875295100718,
+            "0.25": 0.7966634740546968,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.013671875,
+          "below_10pct_oracle_rate": 0.017578125,
+          "below_50pct_oracle_rate": 0.1015625,
+          "at_least_90pct_oracle_rate": 0.705078125,
+          "realized_gain_mean": 0.016761739237194102,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.009770379762493876,
+          "gainrecovery": 0.867501549875806
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.6631878000979003,
+            "0.25": 0.9739835434829809,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0,
+          "below_10pct_oracle_rate": 0.001953125,
+          "below_50pct_oracle_rate": 0.03515625,
+          "at_least_90pct_oracle_rate": 0.80078125,
+          "realized_gain_mean": 0.01796137901510039,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.004557828421315757,
+          "gainrecovery": 0.9295887445218779
+        },
+        {
+          "seed": 3,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.5906234379675696,
+            "0.25": 0.982094756934611,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.005859375,
+          "below_10pct_oracle_rate": 0.005859375,
+          "below_50pct_oracle_rate": 0.068359375,
+          "at_least_90pct_oracle_rate": 0.79296875,
+          "realized_gain_mean": 0.017608029135195057,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.006739779130176373,
+          "gainrecovery": 0.9113011692214511
+        },
+        {
+          "seed": 4,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.3994291649452665,
+            "0.25": 0.7335318994006063,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.017578125,
+          "below_10pct_oracle_rate": 0.029296875,
+          "below_50pct_oracle_rate": 0.130859375,
+          "at_least_90pct_oracle_rate": 0.68359375,
+          "realized_gain_mean": 0.016143488621373416,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.011342593144111787,
+          "gainrecovery": 0.8355040727735492
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.5622062002903746,
+        "0.25": 0.9049722262740407,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.007421875,
+      "mean_seed_below_10pct_oracle_rate": 0.0109375,
+      "mean_seed_below_50pct_oracle_rate": 0.07734375,
+      "mean_seed_at_least_90pct_oracle_rate": 0.750390625,
+      "mean_seed_aggregate_gainrecovery": 0.8916942403130073,
+      "worst_utility_per_geometry_median_ratio": 0.970533198769393,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "Generic_K8": {
+      "seeds": 3,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.10879728285955785,
+            "0.25": 0.3585358665782131,
+            "0.5": 0.7305281832670507,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.0546875,
+          "below_10pct_oracle_rate": 0.09375,
+          "below_50pct_oracle_rate": 0.32421875,
+          "at_least_90pct_oracle_rate": 0.3984375,
+          "realized_gain_mean": 0.01218169001005144,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.020225223450624902,
+          "gainrecovery": 0.6304617208443852
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.28007853531918664,
+            "0.25": 0.49684030878760244,
+            "0.5": 0.8528711893780712,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.017578125,
+          "below_10pct_oracle_rate": 0.03125,
+          "below_50pct_oracle_rate": 0.25390625,
+          "at_least_90pct_oracle_rate": 0.46484375,
+          "realized_gain_mean": 0.01413636281506437,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.014548063300415153,
+          "gainrecovery": 0.7316255478108677
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.3339506234949275,
+            "0.25": 0.587531035414016,
+            "0.5": 0.9686586713180019,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.009765625,
+          "below_10pct_oracle_rate": 0.015625,
+          "below_50pct_oracle_rate": 0.189453125,
+          "at_least_90pct_oracle_rate": 0.55078125,
+          "realized_gain_mean": 0.015226369635130287,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.011892255586787798,
+          "gainrecovery": 0.7880387035342395
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.2367011159283551,
+        "0.25": 0.4956302220653511,
+        "0.5": 0.8555354813281917,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.02734375,
+      "mean_seed_below_10pct_oracle_rate": 0.046875,
+      "mean_seed_below_50pct_oracle_rate": 0.255859375,
+      "mean_seed_at_least_90pct_oracle_rate": 0.4713541666666667,
+      "mean_seed_aggregate_gainrecovery": 0.7167086573964975,
+      "worst_utility_per_geometry_median_ratio": 0.5624876484037317,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "RF_K8": {
+      "seeds": 3,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.4653487367539469,
+            "0.25": 0.7011853199618765,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.005859375,
+          "below_10pct_oracle_rate": 0.013671875,
+          "below_50pct_oracle_rate": 0.115234375,
+          "at_least_90pct_oracle_rate": 0.62890625,
+          "realized_gain_mean": 0.016316031873236252,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.010174328962265023,
+          "gainrecovery": 0.8444340254648237
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.46535665496574136,
+            "0.25": 0.7372076930904276,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.00390625,
+          "below_10pct_oracle_rate": 0.009765625,
+          "below_50pct_oracle_rate": 0.111328125,
+          "at_least_90pct_oracle_rate": 0.65625,
+          "realized_gain_mean": 0.0164859881639118,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.009901248676648065,
+          "gainrecovery": 0.853230090329323
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.4431042127699627,
+            "0.25": 0.7333348929302703,
+            "0.5": 1.0,
+            "0.75": 1.0,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.005859375,
+          "below_10pct_oracle_rate": 0.015625,
+          "below_50pct_oracle_rate": 0.119140625,
+          "at_least_90pct_oracle_rate": 0.650390625,
+          "realized_gain_mean": 0.01643873853516392,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.010174328962265023,
+          "gainrecovery": 0.8507846921764339
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.4580538441936264,
+        "0.25": 0.7188175795288246,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.005208333333333333,
+      "mean_seed_below_10pct_oracle_rate": 0.013020833333333334,
+      "mean_seed_below_50pct_oracle_rate": 0.115234375,
+      "mean_seed_at_least_90pct_oracle_rate": 0.6451822916666666,
+      "mean_seed_aggregate_gainrecovery": 0.8494829359901935,
+      "worst_utility_per_geometry_median_ratio": 0.7960519101400987,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    },
+    "Random_K8": {
+      "seeds": 3,
+      "unique_geometries": 256,
+      "utilities": 2,
+      "per_seed": [
+        {
+          "seed": 0,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.22512161460790575,
+            "0.25": 0.36565813120715795,
+            "0.5": 0.6236378057904184,
+            "0.75": 0.9060817820638338,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.00390625,
+          "below_10pct_oracle_rate": 0.025390625,
+          "below_50pct_oracle_rate": 0.38671875,
+          "at_least_90pct_oracle_rate": 0.25390625,
+          "realized_gain_mean": 0.011688142784434138,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.01698997797324304,
+          "gainrecovery": 0.6049182508559101
+        },
+        {
+          "seed": 1,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.21381817034662295,
+            "0.25": 0.3540286115889578,
+            "0.5": 0.609194922217412,
+            "0.75": 0.8939409419439144,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.001953125,
+          "below_10pct_oracle_rate": 0.021484375,
+          "below_50pct_oracle_rate": 0.3828125,
+          "at_least_90pct_oracle_rate": 0.248046875,
+          "realized_gain_mean": 0.011518769753464208,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.017360731553746227,
+          "gainrecovery": 0.5961523725186825
+        },
+        {
+          "seed": 2,
+          "oracle_nonpositive_count": 0,
+          "decision_count": 512,
+          "recovery_ratio_quantiles": {
+            "0.1": 0.2440443882443335,
+            "0.25": 0.39682245622208784,
+            "0.5": 0.6192307110372837,
+            "0.75": 0.8967279005367507,
+            "0.9": 1.0
+          },
+          "no_positive_gain_rate": 0.001953125,
+          "below_10pct_oracle_rate": 0.029296875,
+          "below_50pct_oracle_rate": 0.3828125,
+          "at_least_90pct_oracle_rate": 0.244140625,
+          "realized_gain_mean": 0.011588117282605056,
+          "oracle_gain_mean": 0.01932185509016527,
+          "absolute_regret_p90": 0.018321275548102596,
+          "gainrecovery": 0.5997414445212018
+        }
+      ],
+      "ratio_quantiles_pooled": {
+        "0.1": 0.2301578775410189,
+        "0.25": 0.3723657463221025,
+        "0.5": 0.6186218152091629,
+        "0.75": 0.8989713738904093,
+        "0.9": 1.0
+      },
+      "mean_seed_no_positive_gain_rate": 0.0026041666666666665,
+      "mean_seed_below_10pct_oracle_rate": 0.025390625,
+      "mean_seed_below_50pct_oracle_rate": 0.3841145833333333,
+      "mean_seed_at_least_90pct_oracle_rate": 0.24869791666666666,
+      "mean_seed_aggregate_gainrecovery": 0.6002706892985982,
+      "worst_utility_per_geometry_median_ratio": 0.4098284259050052,
+      "note": "Pooled seed/utility values share geometries; descriptive quantiles, not independent confidence intervals. Per-decision ratios differ from sum-gain recovery. Oracle <=1e-10 excluded only from ratios."
+    }
+  },
+  "individual": {
+    "full_aug_cpu_s0_K1": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.1372873527935915,
+        "0.5": 0.49643574521008255,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.1875,
+      "below_10pct_oracle_rate": 0.21875,
+      "below_50pct_oracle_rate": 0.50390625,
+      "at_least_90pct_oracle_rate": 0.310546875,
+      "realized_gain_mean": 0.01024223540159534,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.021373521292934874,
+      "gainrecovery": 0.5300855095848735
+    },
+    "full_aug_cpu_s1_K1": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.0,
+        "0.5": 0.3956380497944806,
+        "0.75": 0.9164433725553152,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.26171875,
+      "below_10pct_oracle_rate": 0.322265625,
+      "below_50pct_oracle_rate": 0.5703125,
+      "at_least_90pct_oracle_rate": 0.2578125,
+      "realized_gain_mean": 0.009123645145876092,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.02277517110215249,
+      "gainrecovery": 0.47219302201060304
+    },
+    "full_aug_cpu_s2_K1": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.12000134287482302,
+        "0.5": 0.4769007243246435,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.181640625,
+      "below_10pct_oracle_rate": 0.236328125,
+      "below_50pct_oracle_rate": 0.517578125,
+      "at_least_90pct_oracle_rate": 0.314453125,
+      "realized_gain_mean": 0.01042180801107899,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.02129037836976595,
+      "gainrecovery": 0.5393792657302166
+    },
+    "full_aug_cpu_s3_K1": {
+      "seed": 3,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.1336795999634816,
+        "0.5": 0.5047556545512193,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.16796875,
+      "below_10pct_oracle_rate": 0.216796875,
+      "below_50pct_oracle_rate": 0.494140625,
+      "at_least_90pct_oracle_rate": 0.3046875,
+      "realized_gain_mean": 0.01043469103340274,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.021706876984022103,
+      "gainrecovery": 0.5400460248102134
+    },
+    "full_aug_cpu_s4_K1": {
+      "seed": 4,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.0,
+        "0.5": 0.3341782257870676,
+        "0.75": 0.8932246253864758,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.27734375,
+      "below_10pct_oracle_rate": 0.330078125,
+      "below_50pct_oracle_rate": 0.595703125,
+      "at_least_90pct_oracle_rate": 0.248046875,
+      "realized_gain_mean": 0.008583894702110703,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.023012854016563798,
+      "gainrecovery": 0.44425831070847144
+    },
+    "full_aug_cpu_s0_K2": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.09663976528570713,
+        "0.25": 0.3676756780457039,
+        "0.5": 0.7510208428679358,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0859375,
+      "below_10pct_oracle_rate": 0.1015625,
+      "below_50pct_oracle_rate": 0.330078125,
+      "at_least_90pct_oracle_rate": 0.423828125,
+      "realized_gain_mean": 0.013028363001909507,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.016966282375322855,
+      "gainrecovery": 0.674281167160853
+    },
+    "full_aug_cpu_s1_K2": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.25089449117441864,
+        "0.5": 0.6551300625538843,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.130859375,
+      "below_10pct_oracle_rate": 0.166015625,
+      "below_50pct_oracle_rate": 0.41015625,
+      "at_least_90pct_oracle_rate": 0.373046875,
+      "realized_gain_mean": 0.011815855890761312,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.019180706456610963,
+      "gainrecovery": 0.6115280254210955
+    },
+    "full_aug_cpu_s2_K2": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.10118547413902801,
+        "0.25": 0.3560676691626026,
+        "0.5": 0.7667788534784106,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.068359375,
+      "below_10pct_oracle_rate": 0.099609375,
+      "below_50pct_oracle_rate": 0.341796875,
+      "at_least_90pct_oracle_rate": 0.419921875,
+      "realized_gain_mean": 0.01304418740260948,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.016328670842463536,
+      "gainrecovery": 0.67510015688136
+    },
+    "full_aug_cpu_s3_K2": {
+      "seed": 3,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.08210262506263134,
+        "0.25": 0.34027700937460614,
+        "0.5": 0.7345507744648625,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.08203125,
+      "below_10pct_oracle_rate": 0.107421875,
+      "below_50pct_oracle_rate": 0.341796875,
+      "at_least_90pct_oracle_rate": 0.41015625,
+      "realized_gain_mean": 0.012790448869277432,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.01770116644854968,
+      "gainrecovery": 0.661967953366326
+    },
+    "full_aug_cpu_s4_K2": {
+      "seed": 4,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.2362029546489611,
+        "0.5": 0.5934112159131009,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.16796875,
+      "below_10pct_oracle_rate": 0.1953125,
+      "below_50pct_oracle_rate": 0.431640625,
+      "at_least_90pct_oracle_rate": 0.341796875,
+      "realized_gain_mean": 0.010984939273318915,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.021286957392492003,
+      "gainrecovery": 0.5685240481339805
+    },
+    "full_aug_cpu_s0_K4": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.3166473430061893,
+        "0.25": 0.5859373053763512,
+        "0.5": 0.9714371320802535,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.02734375,
+      "below_10pct_oracle_rate": 0.03515625,
+      "below_50pct_oracle_rate": 0.193359375,
+      "at_least_90pct_oracle_rate": 0.544921875,
+      "realized_gain_mean": 0.015089606797450262,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.013440724298271504,
+      "gainrecovery": 0.7809605613454165
+    },
+    "full_aug_cpu_s1_K4": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.127091069294675,
+        "0.25": 0.39492897761187595,
+        "0.5": 0.8351725272339868,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0625,
+      "below_10pct_oracle_rate": 0.0859375,
+      "below_50pct_oracle_rate": 0.3046875,
+      "at_least_90pct_oracle_rate": 0.46875,
+      "realized_gain_mean": 0.013572472028281435,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.01607834344367791,
+      "gainrecovery": 0.7024414563169846
+    },
+    "full_aug_cpu_s2_K4": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.31258817159928454,
+        "0.25": 0.6134158809485263,
+        "0.5": 0.995759141297577,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.015625,
+      "below_10pct_oracle_rate": 0.02734375,
+      "below_50pct_oracle_rate": 0.181640625,
+      "at_least_90pct_oracle_rate": 0.578125,
+      "realized_gain_mean": 0.015540650579118286,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.012639004427793204,
+      "gainrecovery": 0.8043042713340915
+    },
+    "full_aug_cpu_s3_K4": {
+      "seed": 3,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.2761845075302353,
+        "0.25": 0.5377430877029789,
+        "0.5": 0.9789494768586382,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.037109375,
+      "below_10pct_oracle_rate": 0.046875,
+      "below_50pct_oracle_rate": 0.228515625,
+      "at_least_90pct_oracle_rate": 0.548828125,
+      "realized_gain_mean": 0.01485963731388309,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.01424274073142241,
+      "gainrecovery": 0.76905852179
+    },
+    "full_aug_cpu_s4_K4": {
+      "seed": 4,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.03875847998792723,
+        "0.25": 0.3508726479144812,
+        "0.5": 0.7965640939549525,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.09375,
+      "below_10pct_oracle_rate": 0.1171875,
+      "below_50pct_oracle_rate": 0.330078125,
+      "at_least_90pct_oracle_rate": 0.4453125,
+      "realized_gain_mean": 0.012884229703359989,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.018341716292575975,
+      "gainrecovery": 0.6668215677654057
+    },
+    "full_aug_cpu_s0_K8": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.4960451144576491,
+        "0.25": 0.7088821171307653,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0078125,
+      "below_10pct_oracle_rate": 0.009765625,
+      "below_50pct_oracle_rate": 0.10546875,
+      "at_least_90pct_oracle_rate": 0.66796875,
+      "realized_gain_mean": 0.016587117394777497,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.00974129076634465,
+      "gainrecovery": 0.8584640200112182
+    },
+    "full_aug_cpu_s1_K8": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.3225639061565234,
+        "0.25": 0.6058944013477522,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.021484375,
+      "below_10pct_oracle_rate": 0.03515625,
+      "below_50pct_oracle_rate": 0.1875,
+      "at_least_90pct_oracle_rate": 0.591796875,
+      "realized_gain_mean": 0.015478120741504887,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.013153140324542217,
+      "gainrecovery": 0.8010680480355726
+    },
+    "full_aug_cpu_s2_K8": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.5197081632270694,
+        "0.25": 0.7954967885205657,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.005859375,
+      "below_10pct_oracle_rate": 0.0078125,
+      "below_50pct_oracle_rate": 0.091796875,
+      "at_least_90pct_oracle_rate": 0.689453125,
+      "realized_gain_mean": 0.01695341195377463,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.008563295213635875,
+      "gainrecovery": 0.877421545429343
+    },
+    "full_aug_cpu_s3_K8": {
+      "seed": 3,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.42344278015950065,
+        "0.25": 0.7954967885205657,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.017578125,
+      "below_10pct_oracle_rate": 0.021484375,
+      "below_50pct_oracle_rate": 0.134765625,
+      "at_least_90pct_oracle_rate": 0.703125,
+      "realized_gain_mean": 0.016568377767492565,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.01061272910407518,
+      "gainrecovery": 0.8574941531326249
+    },
+    "full_aug_cpu_s4_K8": {
+      "seed": 4,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.23528159804823862,
+        "0.25": 0.5617963386794189,
+        "0.5": 0.9861791104632343,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0390625,
+      "below_10pct_oracle_rate": 0.060546875,
+      "below_50pct_oracle_rate": 0.220703125,
+      "at_least_90pct_oracle_rate": 0.5625,
+      "realized_gain_mean": 0.014658258497177938,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.014340672481743161,
+      "gainrecovery": 0.7586361883357111
+    },
+    "full_aug_cpu_s0_K16": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.6166855728913329,
+        "0.25": 0.9309474224412699,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0,
+      "below_10pct_oracle_rate": 0.0,
+      "below_50pct_oracle_rate": 0.05078125,
+      "at_least_90pct_oracle_rate": 0.76953125,
+      "realized_gain_mean": 0.01767129847145171,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.006028694091472536,
+      "gainrecovery": 0.9145756651723527
+    },
+    "full_aug_cpu_s1_K16": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.4989875295100718,
+        "0.25": 0.7966634740546968,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.013671875,
+      "below_10pct_oracle_rate": 0.017578125,
+      "below_50pct_oracle_rate": 0.1015625,
+      "at_least_90pct_oracle_rate": 0.705078125,
+      "realized_gain_mean": 0.016761739237194102,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.009770379762493876,
+      "gainrecovery": 0.867501549875806
+    },
+    "full_aug_cpu_s2_K16": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.6631878000979003,
+        "0.25": 0.9739835434829809,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0,
+      "below_10pct_oracle_rate": 0.001953125,
+      "below_50pct_oracle_rate": 0.03515625,
+      "at_least_90pct_oracle_rate": 0.80078125,
+      "realized_gain_mean": 0.01796137901510039,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.004557828421315757,
+      "gainrecovery": 0.9295887445218779
+    },
+    "full_aug_cpu_s3_K16": {
+      "seed": 3,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.5906234379675696,
+        "0.25": 0.982094756934611,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.005859375,
+      "below_10pct_oracle_rate": 0.005859375,
+      "below_50pct_oracle_rate": 0.068359375,
+      "at_least_90pct_oracle_rate": 0.79296875,
+      "realized_gain_mean": 0.017608029135195057,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.006739779130176373,
+      "gainrecovery": 0.9113011692214511
+    },
+    "full_aug_cpu_s4_K16": {
+      "seed": 4,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.3994291649452665,
+        "0.25": 0.7335318994006063,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.017578125,
+      "below_10pct_oracle_rate": 0.029296875,
+      "below_50pct_oracle_rate": 0.130859375,
+      "at_least_90pct_oracle_rate": 0.68359375,
+      "realized_gain_mean": 0.016143488621373416,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.011342593144111787,
+      "gainrecovery": 0.8355040727735492
+    },
+    "generic_aug_cpu_s0_K8": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.10879728285955785,
+        "0.25": 0.3585358665782131,
+        "0.5": 0.7305281832670507,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.0546875,
+      "below_10pct_oracle_rate": 0.09375,
+      "below_50pct_oracle_rate": 0.32421875,
+      "at_least_90pct_oracle_rate": 0.3984375,
+      "realized_gain_mean": 0.01218169001005144,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.020225223450624902,
+      "gainrecovery": 0.6304617208443852
+    },
+    "generic_aug_cpu_s1_K8": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.28007853531918664,
+        "0.25": 0.49684030878760244,
+        "0.5": 0.8528711893780712,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.017578125,
+      "below_10pct_oracle_rate": 0.03125,
+      "below_50pct_oracle_rate": 0.25390625,
+      "at_least_90pct_oracle_rate": 0.46484375,
+      "realized_gain_mean": 0.01413636281506437,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.014548063300415153,
+      "gainrecovery": 0.7316255478108677
+    },
+    "generic_aug_cpu_s2_K8": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.3339506234949275,
+        "0.25": 0.587531035414016,
+        "0.5": 0.9686586713180019,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.009765625,
+      "below_10pct_oracle_rate": 0.015625,
+      "below_50pct_oracle_rate": 0.189453125,
+      "at_least_90pct_oracle_rate": 0.55078125,
+      "realized_gain_mean": 0.015226369635130287,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.011892255586787798,
+      "gainrecovery": 0.7880387035342395
+    },
+    "RF_cpu_s0_K8": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.4653487367539469,
+        "0.25": 0.7011853199618765,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.005859375,
+      "below_10pct_oracle_rate": 0.013671875,
+      "below_50pct_oracle_rate": 0.115234375,
+      "at_least_90pct_oracle_rate": 0.62890625,
+      "realized_gain_mean": 0.016316031873236252,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.010174328962265023,
+      "gainrecovery": 0.8444340254648237
+    },
+    "RF_cpu_s1_K8": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.46535665496574136,
+        "0.25": 0.7372076930904276,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.00390625,
+      "below_10pct_oracle_rate": 0.009765625,
+      "below_50pct_oracle_rate": 0.111328125,
+      "at_least_90pct_oracle_rate": 0.65625,
+      "realized_gain_mean": 0.0164859881639118,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.009901248676648065,
+      "gainrecovery": 0.853230090329323
+    },
+    "RF_cpu_s2_K8": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.4431042127699627,
+        "0.25": 0.7333348929302703,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.005859375,
+      "below_10pct_oracle_rate": 0.015625,
+      "below_50pct_oracle_rate": 0.119140625,
+      "at_least_90pct_oracle_rate": 0.650390625,
+      "realized_gain_mean": 0.01643873853516392,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.010174328962265023,
+      "gainrecovery": 0.8507846921764339
+    },
+    "random_s0_K8": {
+      "seed": 0,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.22512161460790575,
+        "0.25": 0.36565813120715795,
+        "0.5": 0.6236378057904184,
+        "0.75": 0.9060817820638338,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.00390625,
+      "below_10pct_oracle_rate": 0.025390625,
+      "below_50pct_oracle_rate": 0.38671875,
+      "at_least_90pct_oracle_rate": 0.25390625,
+      "realized_gain_mean": 0.011688142784434138,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.01698997797324304,
+      "gainrecovery": 0.6049182508559101
+    },
+    "random_s1_K8": {
+      "seed": 1,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.21381817034662295,
+        "0.25": 0.3540286115889578,
+        "0.5": 0.609194922217412,
+        "0.75": 0.8939409419439144,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.001953125,
+      "below_10pct_oracle_rate": 0.021484375,
+      "below_50pct_oracle_rate": 0.3828125,
+      "at_least_90pct_oracle_rate": 0.248046875,
+      "realized_gain_mean": 0.011518769753464208,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.017360731553746227,
+      "gainrecovery": 0.5961523725186825
+    },
+    "random_s2_K8": {
+      "seed": 2,
+      "oracle_nonpositive_count": 0,
+      "decision_count": 512,
+      "recovery_ratio_quantiles": {
+        "0.1": 0.2440443882443335,
+        "0.25": 0.39682245622208784,
+        "0.5": 0.6192307110372837,
+        "0.75": 0.8967279005367507,
+        "0.9": 1.0
+      },
+      "no_positive_gain_rate": 0.001953125,
+      "below_10pct_oracle_rate": 0.029296875,
+      "below_50pct_oracle_rate": 0.3828125,
+      "at_least_90pct_oracle_rate": 0.244140625,
+      "realized_gain_mean": 0.011588117282605056,
+      "oracle_gain_mean": 0.01932185509016527,
+      "absolute_regret_p90": 0.018321275548102596,
+      "gainrecovery": 0.5997414445212018
+    }
+  },
+  "policy_changed": false,
+  "new_fits": 0,
+  "new_physics_queries": 0,
+  "thresholds": "Descriptive reporting thresholds only; never used for action selection or selecting K"
+}

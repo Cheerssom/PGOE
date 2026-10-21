@@ -1,0 +1,22 @@
+{
+  "arm": "prism_nm_rope",
+  "seed": 4,
+  "steps": 800,
+  "batch": 64,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "augmentation": true,
+  "position_unit_um": 0.12248914944559414,
+  "parameters": 73410,
+  "training_objects": 1536,
+  "training_object_forwards": 102400,
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "2.1.0",
+  "archive_model_sha256": "8baadcde7fc5e252ade1a75e364b8a6611f329d6a2e926841975728a89dfe74b",
+  "archive_norm_sha256": "2abf47925e6e5d9b1ac9db8359adcad9358f4d9d8ac9cdf904e3eb12f059d550",
+  "input_sha256": {
+    "L08.npz": "82915048e0e7dab07b2fc600808100bc0b86883b5c62df95d23006ce8a9f42fb",
+    "L12.npz": "07bb16c2ec84bf7e069ae4859cf1be8a209b433b3d89b89acc856133a9eee440",
+    "L16.npz": "f5ab1058d514da5d14d515c5eca4380cce1e8e7931f1aa7f6c2f2c174d22c2b0"
+  }
+}
