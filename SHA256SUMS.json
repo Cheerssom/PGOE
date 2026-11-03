@@ -2,7 +2,7 @@
   ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
   ".gitignore": "0de2b1fc02e4c7875010642caa4ebadb803729b84d772ec596a6c1843855489d",
   "CHECKPOINT_INDEX.json": "503cee683799e8c40a57d5049a41f46149079f2556ffb70b122549a6ddea82b3",
-  "README.md": "0518cd022f21fa742d5295ba74cac83dc3e7f064cabbaafbf51cde9dc1333769",
+  "README.md": "5f036e6348f62b7998d8f93eaee1055f84d8f8550abef689629b6f9c2a4842bf",
   "checkpoints/s0_full_aug/config.json": "ec02c6384c13a88ad74016544fc91542adb111e19e16daf3ec2f7f865482c228",
   "checkpoints/s0_full_aug/model.pt": "edf535e1b41cb2512a385e9174a93acc2fba7f2247d4c487a12a16f1afb7ec99",
   "checkpoints/s0_full_aug/normalization.npz": "8137d14dc9f249a8fa4834335a75f92a9201bd0fdc182816fea05b62860eb465",

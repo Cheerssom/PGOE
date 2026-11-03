@@ -1,8 +1,8 @@
 # PGOE: Physics-Grounded Optical Editing
 
-Reproducibility code, simulation-generated data, and frozen neural checkpoints for **Physics-Grounded Representation and Reversal Symmetry for Cross-Structure Local Editing of Optical Multilayers**, by Junyi Zhang, Shandong University.
+Reproducibility code, simulation-generated data, and frozen neural checkpoints for **Physics-grounded representations and reversal supervision for cross-structure decisions in optical multilayers**, by Junyi Zhang, Shandong University.
 
-This repository accompanies a manuscript prepared for submission to Knowledge-Based Systems. It is not a claim of journal acceptance. The task is single-step selection among signed local thickness edits and no-operation. All evaluated materials follow a lossless real Cauchy model at normal incidence with identical air exterior media. Thickness and wavelength units are micrometres.
+This repository accompanies a manuscript prepared for submission to Machine Learning: Science and Technology. It is not a claim of journal acceptance. Historical archive and replay filenames retain their original KBS identifiers. The task is single-step selection among signed local thickness edits and no-operation. All evaluated materials follow a lossless real Cauchy model at normal incidence with identical air exterior media. Thickness and wavelength units are micrometres.
 
 ## Contents
 
@@ -46,6 +46,10 @@ Default training: 800 AdamW updates, learning rate 0.001, weight decay 0.01, 64 
 
 Additional packaged arms: `generic_mlp`, `full_mlp`, `no_phase_interface`, `no_global`, `prism_nm_rope`, `prism_scaled_rope`, `prism_nm_rope_b1000`, `prism_scaled_rope_b1000`. Individual optical feature groups are also implemented in `core.py`. RoPE entries are adaptations of positional mechanisms to the same editing task, not full reproductions of the PRISM generative model.
 
+The archive does not contain a frozen optical checkpoint trained without reversal, or the separate phase-only and interface-only replacement checkpoints. Reproducing those development comparisons requires retraining with the stated configuration; the packaged full-model checkpoints alone cannot isolate those effects. Confirmation I and II test their stated complete-model comparisons, rather than confirming the development reversal or grouped-replacement effects.
+
+The random forest reference uses the same 24 optical layer coordinates as PGOE, concatenated with a seven-dimensional physical action query: the normalized signed edit and the sine/cosine-minus-one of its propagation-phase increment at three wavelengths. It has 96 trees, maximum depth 12, minimum leaf size 4, and 80% of features per split. It is trained on original views only and has no attention across layers. Its different action query means it is a decision-quality reference, not a matched causal control for attention. RF weights are not packaged; archived proposals remain available for the verification replays.
+
 ## Generate new simulation data
 
 ```sh
@@ -65,6 +69,8 @@ python verification/shortlist/replay_practical.py
 These scripts run from any working directory and freshly recompute physical gains for archived proposals. They validate decision quality, not hardware-dependent timings or fresh model training. The replay uses full-stack NumPy TMM; the original shortlist timing benchmark used shared prefix/suffix optical states. Its replay runtime must not be treated as the paper's timing measurement. Full raw timing samples and original boundary descriptions remain in the corresponding summary files.
 
 The single-candidate follow-up reuses exposed confirmation structures. The shortlist test froze predictors and fixed K=8 before its separate 256-structure evaluation; K=1/2/4/8/16 are all reported without test-based budget selection. Full-set PGOE quality uses five seeds; timing compares three seeds on a nested 64-structure subset. Do not mix those scopes.
+
+At K=8, mean gain recovery is 83.06% for all five PGOE seeds. On the shared seeds 0-2, it is 84.57% for PGOE and 84.95% for RF; five-seed PGOE recovery spans 75.86-87.74%, while the three RF seeds span 84.44-85.32%. These values describe the separate 256-structure shortlist cohort, not the nested timing subset.
 
 ## Interpretation
 
